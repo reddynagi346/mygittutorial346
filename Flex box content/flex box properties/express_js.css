@@ -1,0 +1,108 @@
+.const{
+    display:grid;
+    border:0.5px solid gray;
+    grid-template-rows: repeat(20,1fr);
+    width:50vw;
+}
+.child{
+    display:grid;
+    grid-template-columns: 20px 48% 20px 48%;
+}
+.child div{
+    border:0.5px solid gray;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1{
+    display: grid;
+    grid-template-columns: 20px 98%;
+}
+.child1 div{
+    border: 0.5px solid gray;
+}
+.child2{
+    grid-row:4/10;
+    display: grid;
+    grid-template-columns: 20px 98%;
+}
+.child2 div{
+    border:0.5px solid gray;
+}
+.sub{
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+}
+.sub1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sub2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.child3{
+    grid-row: 10/13;
+    display: grid;
+    grid-template-columns: 20px 98%;
+}
+.child3 div {
+    border:0.5px solid gray;
+}
+.sub3{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.child4{
+    display: grid;
+    grid-template-columns: 20px 80% 18%;
+}
+.child4 div {
+    border: 0.5px solid gray;
+}
+.child5{
+   grid-row: 14/16; 
+   display: grid;
+   grid-template-columns: 20px 98%;
+}
+.child6{
+    display:grid;
+    grid-template-columns: 20px 98%;
+
+}
+.child6 div{
+    border:0.5px solid gray;
+}
+.child7{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.child7 div{
+    border:0.5px solid gray;
+}
+.child8{
+    display:grid;
+    grid-template-columns: 20px 39% 59%;
+}
+.child8 div {
+    border:0.5px solid gray;
+}
+
+/* .const div{
+    border:0.5px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.const div:nth-child(even){
+background-color: rgb(5,87,120);
+color:white;
+font-weight: 600;
+}
+.const div:nth-child(odd){
+    background-color: whitesmoke;
+    color:black;
+    font-weight: 700;
+} */

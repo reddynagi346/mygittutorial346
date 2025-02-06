@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: roboto;
+}
+.const{
+    display:grid;
+    border:0.5px solid;
+    width:48vw;
+    height:65vh;
+    grid-template-columns: 1fr,2fr;
+    grid-template-rows: repeat(15, 1fr);
+    gap:5px;
+    padding: 10px;
+}
+.const div:nth-child(even){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5px;
+    font-size: 20px;
+    font-weight: 350;
+}
+.child1{
+    background-color: whitesmoke;
+    grid-area: 1/1/2/3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5PX;
+    font-size: 20px;
+    font-weight: 350;
+}
+.child2{
+    width:100%;
+    border-radius: 5px;
+    height: 100%;
+    border: 0.5px solid;
+}
+.child3{
+    width:80%;
+    height:90%;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+.child4{
+    background-color: whitesmoke;
+    grid-area: 7/1/8/3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5PX;
+    font-size: 20px;
+    font-weight: 350;
+}
+.child5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5px;
+    font-size: 20px;
+    font-weight: 350;
+}
+.child6{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5px;
+    font-size: 20px;
+    font-weight: 350;
+}
+.child7{
+    background-color: whitesmoke;
+    grid-area: 10/1/11/3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5PX;
+    font-size: 20px;
+    font-weight: 350;
+}
+p{
+    color: blue;
+    grid-area: 11/1/12/3;
+}
+.cons{
+    width:48vw;
+    height:65vh;
+    border:0.5px solid;
+    padding:10px
+}
+.chill1{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:5PX;
+    font-size: 20px;
+    font-weight: 350;  
+}
+/* .chill1 div{
+    height:7%;
+    
+} */
+.chill2{
+    width:40%;
+    height:100%;
+    font-size: 20px;
+    font-weight: 350;
+    padding:5px;
+}
+.chill3{
+    width:60%;
+}

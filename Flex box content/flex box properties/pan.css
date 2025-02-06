@@ -1,0 +1,16 @@
+.cons{
+    background-color: rgb(241, 206, 91);
+    border:1px solid red;
+    width:50vw;
+    display: grid;
+    grid-template-rows: repeat(9,1fr);
+    height:70vh;
+}
+.form1{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.form2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

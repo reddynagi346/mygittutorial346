@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: roboto;
+}
+.child1{
+    display:flex;
+    width:50%; 
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 24px;
+}
+.body{
+    border:0.5px solid;
+    padding:3px;
+    width:50.75vw;
+}
+.cons{
+    border:0.5px solid;
+    width:50vw;
+    height:100vh;
+    padding:3px;
+    display:grid;
+    grid-template-rows: repeat(16, 1fr);
+}
+.cons div{
+    font-size: 18px;
+}
+.child2{
+border-bottom: 0.5px solid;
+display:grid;
+grid-template-rows: 1fr 1fr;
+}
+.child{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    padding:2px;
+}
+.chil{
+    display: flex;
+    width:100%;
+    justify-content: flex-start;
+    padding:2px;
+}
+.child3{
+    border-bottom:0.5px solid;
+    display: grid;
+    width:100%;
+    grid-template-columns: 1fr 1fr;
+    gap:2px;
+}
+.subchild{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    gap:2px;
+}
+.subchild1{
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap:2px;
+}
+.subchild2{
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr 2fr 2fr;
+    gap:2px;
+}
+.subchild3{
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr 1fr;
+    gap:2px;
+}
+.subchild4{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2px;
+}
+.child4{
+    border-bottom: 0.5px solid;
+}
+.style{
+    border-bottom: 2px solid;
+    border-top: 1.5px solid;
+    background-color: gray;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding:5px;
+    height:40%;
+}
+.styl{
+    border-bottom: 2px solid;
+    border-top: 1.5px solid;
+    background-color: gray;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding:5px;
+    height:40%;
+    width:99.45%
+}
+.style1{
+    border-bottom:0.5px solid;
+}
+.sub{
+    display:grid;
+    grid-template-columns: 4fr 8fr;
+}
+.style2{
+    border-bottom:0.5px solid;
+}
+.chi{
+    display: flex;
+    width:100%;
+    justify-content: flex-start;
+    padding:2px;
+    align-items: center;
+}
+.parent{
+    display: grid;
+    height:50%;
+    grid-template-rows: repeat(16, 1fr);
+}
+.child5{
+    display:grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    border-bottom:0.5px solid;
+}
+.child6{
+    display:grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.child7{
+    display:grid;
+    grid-template-columns: 8fr 4fr;
+}
+.paren{
+   display: grid;
+   height:50%;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(5,1fr);
+}
+.cha{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.chat{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.ch{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.child8{
+    grid-row:7/9;
+    display: grid;
+    grid-template-columns: 4fr 1fr 3fr 4fr;
+}

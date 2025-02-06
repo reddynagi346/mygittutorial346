@@ -1,0 +1,51 @@
+.cont{
+    display:grid;
+    grid-template-columns: repeat(21,50px);
+    grid-template-rows: repeat(21,50px);
+}
+.cont div{
+    border: 0.5px solid black;
+    font-weight: 800;
+    font-size: 40px;
+    height:auto;
+    width:auto;
+    padding:5px;
+    box-shadow:
+      8px 8px 10px 0px deeppink,
+      -5px -5px 5px 0px blue,
+      5px 5px 15px 0px yellow;
+    box-decoration-break:clone;
+}
+
+.child1{
+  grid-area: 10/10/11/11;
+  background-color: rgb(201, 155, 155);
+}
+.child2{
+    grid-area: 9/9/12/12;
+
+}
+.child3{
+    grid-area: 8/8/13/13;
+}
+.child4{
+    grid-area: 7/7/14/14;
+}
+.child5{
+    grid-area: 6/6/15/15;
+}
+.child6{
+    grid-area: 5/5/16/16;
+}
+.child7{
+    grid-area: 4/4/17/17;
+}
+.child8{
+    grid-area: 3/3/18/18;
+}
+.child9{
+    grid-area: 2/2/19/19;
+}
+.child10{
+    grid-area: 1/1/20/20;
+}

@@ -1,0 +1,143 @@
+.cons{
+    display: grid;
+    width:60%;
+    height:50vh;
+    border:0.5px solid black;
+    background-color: lightgoldenrodyellow;
+    grid-template-rows: repeat(15,1fr);
+    grid-template-columns:1fr,2fr,2fr,2fr,2fr,2fr,1fr ;
+}
+.cons div{
+    border-bottom: 0.1px solid black;
+}
+.child1{
+    grid-area: 1/1/2/8;
+}
+.child2{
+    grid-area: 2/1/3/4;
+}
+.child3{
+  grid-area:2/4/3/6;
+  border-left: 0.1px solid;
+}
+.child4{
+    grid-area: 2/6/3/7;
+    border-left: 0.1px solid;
+}
+.child5{
+    grid-area: 2/7/21/8;
+    border-left: 0.1px solid;
+}
+.child6{
+    border-left: 0.1px solid;
+}
+select{
+    border: none;
+}
+input{
+    background-color: lightgoldenrodyellow;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 39px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .flex{
+    width: 60%;
+    height:50vh;
+    border:0.5px solid black;
+    background-color: lightgoldenrodyellow;
+  }
+  .flex div{
+    height:7%;
+  }
+  .sub{
+    display:flex;
+    justify-content: space-between;
+    width:65%;
+  }
+  .sub div{
+    border-right: 0.10px solid;
+  }
+  .sub1{
+    height:100%;
+    width:35%;
+  }
+  .sub2{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  input{
+    border:dotted 0.5px;
+  }
+  .sub2 div:nth-child(even){
+    width:23%;
+  }
+  .sub2 div:nth-child(odd){
+    width:10%;
+  }
+  .sub2 div:nth-child(1){
+    width:20%;
+  }
+  .side2{
+    width:100%;
+    height:100%;
+  }
+ 

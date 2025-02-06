@@ -1,0 +1,33 @@
+.con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+    width:35vw;
+    height:25vh;
+    border:0.5px solid black;
+    border-radius: 20px;
+}
+.child1{
+    grid-area: 1/1/2/8;
+    border-bottom: 0.5px skyblue solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 144, 83);
+    border-radius: 20px 20px 0px 0px;
+}
+.fa-arrow-up{
+    color:skyblue;
+    font-weight: 600;
+}
+.fa-xmark{
+    color: red;
+    font-weight: 600;
+}
+[type='text']{
+    width:80%;
+    height:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

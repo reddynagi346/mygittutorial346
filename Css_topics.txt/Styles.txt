@@ -1,0 +1,384 @@
+Topic 1: Background-Image::
+
+/*body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230415/pngtree-website-technology-line-dark-background-image_2344719.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    
+}
+.picture-img{
+    border:2px solid yellow;
+    height:400px;
+    width:300px;
+    background-image: url('image link paste here/');
+    background-repeat:no-reapeat;
+    background-size:cover;
+    background-position:center;
+}
+.image-size{
+    height:100%;
+    width:100%;
+}
+
+
+
+    */
+    Topics 2: selctors
+    /*
+    Type selctors
+    class selctors
+    id selctors
+    adjcent selctors
+    sudo selctors
+    div h1{
+        color:red;
+    }
+    div>#hh{
+        color:brown;
+    }
+    div~h1 {
+        color:aqua;
+    }
+    div :nth-child(odd){
+        color:blueviolet
+    }
+    div  :nth-child(even){
+        color:blue;
+    }*/
+
+
+
+    topic 3: Display
+    /*display:block(By default)
+    display:inline
+    display:inline-block
+    display:none
+    
+   .box-container{
+    border:2px solid red;
+       }
+    .Box1{
+     height:100px;
+     width:150px;
+     background-color:blueviolet;
+     display:inline-block;
+    }
+    .Box2{
+        height:100px;
+        width:150px;
+        background-color:rgb(43, 168, 226);
+        display:inline-block;
+       }
+       .Box3{
+        height:100px;
+        width:150px;
+        background-color:rgb(226, 43, 89);
+        display:inline-block;
+       }
+       .Box4{
+        height:100px;
+        width:150px;
+        background-color:rgb(110, 226, 43);
+        display:inline-block;
+       }
+    */
+
+
+    Topic 4 :: Positions in CSS
+
+    Positions are five types==>
+    
+    position:Static(Default);
+
+    position: Relative;
+
+    position:Absolute;
+
+    position:Fixed;
+
+    position:Sticky;
+
+
+    Whenever We can use Position Style we can also use help Parameters like:"top, right, bottom, left"
+
+1). position Relative:
+    Example: 
+   .box-container{
+    border:2px solid red;
+    margin-top:250px;
+    padding:0px;
+   }
+
+
+    .box1{
+     height:200px;
+     width:150px;
+     background-color:blueviolet;
+     display:inline-block;
+     position:relative;
+     bottom:200px;
+     left:300px;
+    }
+
+    .box2{
+        height:200px;
+        width:150px;
+        background-color:rgb(43, 168, 226);
+        display:inline-block;
+       }
+  2).Position Absolute:
+  Example::
+  .box1{
+     height:200px;
+     width:150px;
+     background-color:blueviolet;
+     display:inline-block;
+     position:absolute;
+     z-index: 5;
+     
+    }
+
+    .box2{
+        height:200px;
+        width:150px;
+        background-color:rgb(43, 168, 226);
+        display:inline-block;
+        position:absolute;
+        z-index:6;
+       }
+By using this Z-index we can add value of property which ever is highest it will comes on display. Here we can also provide Negative values also(which value is higher can comes on display) 
+3). Position Fixed
+ By Using this Property we can fix the any content i.e images, logo's etc..
+ If we want to place fixed content on right bottom side we can use the following syntax:
+ ex==>
+ img{
+    position:fixed;
+    right:0;
+    bottom:0;
+ }
+ 4). position Sticky
+This property same like as Position Fixed property the major diferance is we can fix where ever we can place it.
+it can not cover the background content of the web page.
+ex==>
+ img{
+    position:sticky;
+    right:0;
+    bottom:0;
+ }
+
+
+Topic 5:: Pseduo Classes
+pseudo -class is used to define a special state of an element.
+:hover
+:active
+:focus
+:first-child
+:last-child
+:nthchild(odd/even/no)
+:checked
+1). hover
+ By using this we can add different styles to the webpage content.
+ the following are the syntax of the hover EXAMPLE:
+ .how{
+        height:350px;
+        width:350px;
+        margin:200px;
+        border:red solid 2px;
+       }
+       .how img{
+        height:100%;
+        width:100%
+       }
+       .how:hover{
+        height:500px;
+        width:500px;
+        transition: 7s;
+       }
+
+
+2).active:
+    .btn-how{
+        height:40px;
+        width:100px;
+        position:relative;
+        bottom:300px;
+        left:600px;
+
+       }
+       .btn-how:active{
+        background-color:lightcoral;
+       }
+
+ 2).focus:
+ by using this we can add some styles of the web page 
+       .focus{
+        position:relative;
+        bottom:300px;
+        left:720px;
+       }
+       .focus input{
+        width:200px;
+        height:40px;
+        margin-bottom:10px;
+       }
+       .focus input:focus{
+        background-color: aquamarine;
+       }
+
+ 3,4,5) childs:
+ by using this property we can tareget specific element to add styles pf that chaild.
+ .focus input:first-child{
+        background-color: aquamarine;
+       }   
+       .focus input:last-child{
+        background-color: aquamarine;
+       }
+       .focus input:nth-child(odd/even/specifies particular Number also){
+        background-color: aqua;
+       } 
+
+6) checked::
+By using this we can add some styles whenever  user clicked/checked on content
+
+ Follwing are the syntax of the Checked classes:
+
+ .focus input[type=checkbox]:checked+label{
+        color:red;
+        font-weight: 700;
+       } 
+
+ P-SEDUO Elements :
+ A CSS pseduo -element is used to style specified part of an element
+  We Can use Pseduo Element two "Colons" :: where as Pseduo classes as single "colon" ":"
+ Types of the Pseduo-elements==>
+   1). ::before
+   2). ::after
+   3). ::First-letter
+   4). ::first-line
+   5). ::placeholder
+
+1) ::before==>
+    by using this sytle we can add any content in webpage such as images, text ...
+     example :
+     .text::before{
+        background:url();
+        width:100%;
+     }
+
+2). :: after==>
+same as before element but the difference is content will be on end of web page
+same syntax instead of after we put in on after
+
+3),4). ::first-letter, ::first-line:: ==>
+by using this we can stylew the first letter/line of the content in web page
+Syntax:
+focus::first-line/first-letter{
+    color:blue;
+
+}
+
+5). placeholder
+By using this we can style the place holder of the input Element
+Syntax:
+focus::placeholder{
+    color:red;
+}
+Topic:;
+Gradients :
+Gradients are like we can add multiple colors of the webpage with smooth transition. there are two types in gradients.
+1. linear-gradient
+2.radial-gradient
+
+
+1).linear-gradient:
+  in this we can add colors linear from left to right , right to left , top to bottom and bottom to top.
+  syntax is 
+  background: linear-gradient( to right, color1,color2,color3,.......)
+  background: linear-gradient( to left, color1,color2,color3,.......)
+  background: linear-gradient( to bottom, color1,color2,color3,.......)
+  background: linear-gradient( to top, color1,color2,color3,.......)
+
+ 2). Radial-gradient:
+  In this we can add colors circle form . syntax of this is::
+  background: radial-gradient( circle, color1,color2,color3,.......)
+
+ Topic Units:
+ Pixels
+ Percantage
+ VH(viewport Height)
+ Vw(viewport width)
+ REM(root element size can take as base)
+
+ Topic  Transitions::
+    transition-duration 
+    transition-delay
+    transition-property
+    transition-timing-function
+    these all are can make in single line by using 
+    transition property
+
+.box1{
+        background-color: red;
+        height:50px;
+        width:70px;
+        transition-duration: 1s;
+        transition-delay: 0.5s;
+        transition-property:all;
+        transition-timing-function: ease-in-out/ease-in/ease-out/linear;
+       }
+       .box1:hover{
+        width :250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: aqua;
+       }
+
+    Topic Animations::
+    This property is same as Transintions, the major difference is we have mention here animation Name while defining animation the follwing is the syntax for the animations 
+    We have define KEYFRAMES by using "ANIMATION NAME".
+    .box1{
+        background-color: red;
+        height:50px;
+        width:70px;
+       margin:50px 50px;
+       position:relative;
+       animation-name: circle;
+       animation-duration: 10s;
+       animation-timing-function: linear;
+       animation-delay: 0.5s;
+       animation-iteration-count: 4;
+       animation-direction: alternate;
+       animation-fill-mode: none;
+       animation-play-state: running;
+       text-align: center;
+}
+       @keyframes circle {
+        0%{
+            left:50px;
+            top:50px;
+        }
+        25%{
+            left:1100px;
+            top:50px;
+            border-radius: 25%;
+            background-color: green;
+        }
+        50%{
+            left:1500px;
+            top:800px;
+            border-radius: 50%;
+            background-color:lightblue;
+        }
+        75%{
+            left:50px;
+            top:800px;
+            border-radius: 75%;
+            background-color: aqua;
+        }
+        100%{
+            top:50px;
+            left:50px; 
+        }
+        
+       }

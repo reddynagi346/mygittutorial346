@@ -1,0 +1,17 @@
+.cons{
+    border:2px solid red;
+    width:30px;
+    height:40px;
+    border-radius: 2px;
+}
+.arrow{
+    position:abosulte;
+    right:100%;
+    z-index: 10;
+    color:red;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.cons{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(7, 100px);
+    gap:20px;
+}
+.child{
+    grid-area: 5/1/7/3;
+}
+.child1{
+    grid-area: 7/1/8/3;
+}
+[type="button"]{
+    width:100%;
+    height:60%;
+    background-color: gray;
+    color:white;
+}
+*{
+    font-weight: 400;
+    font-size: 20px;
+}

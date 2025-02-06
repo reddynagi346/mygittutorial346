@@ -1,0 +1,23 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(12,100px);
+    grid-template-rows: repeat(9,100px);
+    gap:20px;
+    grid-auto-flow: column;
+    text-align: center;
+}
+body{
+background-color: white;
+}
+img{
+    width:100%;
+    height:100%
+}
+
+.child{
+    background-color: rgb(209, 62, 62);
+    border-radius: 10px;
+}
+.child:nth-child(even){
+    background-color: rgb(138, 130, 130);
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding:15px;
+    background-color: whitesmoke;
+    font-family: roboto;
+}
+.cons{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 4fr;
+    border:1px solid green;
+    padding:5px;
+    width:50vw;
+    height:100vh;
+}
+.child{
+    justify-self: center;
+    font-size: 36px;
+    border:orange solid 2px;
+    background-color: rgba(251, 239, 175, 1);
+    color:rgb(24, 167, 24);
+    border-radius: 10px 0px 10px 0px;
+    width:50%;
+}
+.flex{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.child1{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.sub{
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+}
+.sub div{
+    border:0.5px solid;
+}
+.child2{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 4fr 8fr;
+}
+.child3{
+    display: grid;
+    grid-template-rows: repeat(3,25%);
+}
+.sub1{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.child4{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.sub2{
+    border:1px solid;
+    height:100%;
+}
+.sub3{
+    border:1px solid orange;
+    align-self:end;
+}
