@@ -1,0 +1,27 @@
+  body{
+  width:70vw;
+  margin:0;
+  padding:5px;
+  background-color: lightgray;
+  }
+  .child{
+  background-color: red;
+  color:whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:2px;
+  }
+  .input{
+  width:25%;
+  }
+  .text{
+  color:red;
+  width:50%;
+  font-style: italic;
+  }
+  .child1{
+  display:flex;
+  width:100%;
+  justify-content: space-evenly;
+  }

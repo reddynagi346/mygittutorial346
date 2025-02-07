@@ -1,0 +1,22 @@
+{
+  "name": "netninja",
+  "version": "1.0.0",
+  "main": "global.js",
+  "scripts": {
+    "start": "nodemon express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
