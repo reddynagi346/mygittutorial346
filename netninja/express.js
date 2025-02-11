@@ -56,12 +56,15 @@ app.get("/add-blog",(req,res)=>{
   });
   blog.save()
   .then((result)=>{
-    res.send(result)
+    res.renser(result)
 })
 .catch((err)=>{
   res.send(err)
 })
 })
+app.post("/blogs/post",()=>{
+  
+});
 app.get("/all-blogs",(req,res)=>{
   Blog.find()
   .then((result)=>{
